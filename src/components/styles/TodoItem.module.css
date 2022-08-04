@@ -1,0 +1,52 @@
+.item{
+    position: relative;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: flex;
+}
+
+.checkbox{
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.title{
+    line-height: 30px;
+    width: 300px;
+}
+
+.button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border: 1px solid teal;
+    border-radius: 100%;
+}
+
+.cross{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.cross .one{
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background: black;
+    transform: rotate(45deg);
+}
+
+.cross .two{
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background: black;
+    transform: rotate(135deg);
+}

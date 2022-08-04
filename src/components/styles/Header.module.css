@@ -1,0 +1,32 @@
+.header{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 380px;
+    height: 30px;
+}
+
+.input{
+    height: 30px;
+    width: 80%;
+    border: 0;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.button{
+    height: 30px;
+    width: 30px;
+    margin-left: 5%;
+    background: white;
+    color: teal;
+    border-radius: 100%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
